@@ -1,0 +1,46 @@
+.nav-brand {
+  font-size: 0.9em;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-brand:hover {
+  color: white;
+}
+
+.nav-item {
+  text-decoration: none;
+  font-size: 0.9em;
+  color: rgb(164, 162, 162);
+}
+
+.nav-item:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.nav-link.active {
+  color: white !important;
+}
+
+.active {
+  background-color: var(--primary-color);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    background-color: var(--primary-color);
+  }
+
+  .navbar-toggler {
+    border: 1px solid white;
+  }
+
+  .bi-list{
+    color: white;
+  }
+
+  .navbar-toggler-icon {
+    display: none;
+  }
+}

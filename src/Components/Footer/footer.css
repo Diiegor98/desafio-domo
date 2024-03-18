@@ -1,0 +1,91 @@
+.footer {
+  padding: 140px 0px 20px 0;
+  color: var(--secondary-color);
+}
+
+.footer-container {
+  width: 85%;
+  gap: 25px;
+  font-size: 0.85em;
+}
+
+.text-footer h6 {
+  font-size: 0.95em;
+  color: white;
+  font-weight: 700;
+}
+
+.text-footer p {
+  width: 75%;
+}
+
+.lists-footer {
+  gap: 80px;
+}
+
+.lists-footer p {
+  color: white;
+  font-size: 0.85em;
+  letter-spacing: 1px;
+}
+
+.lists-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.lists-footer ul li {
+  margin: 7px 0;
+  font-size: 0.9em;
+  font-weight: 00;
+}
+
+.footer-redes a{
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+@media screen and (max-width: 992px) {
+  .footer-container {
+    width: 100%;
+    justify-content: center;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer-container{
+    width: 100%;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .text-footer{
+    text-align: center;
+    justify-content: center;
+  }
+
+  .text-footer p {
+    width: 100%;
+  }
+
+  .footer-redes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .lists-footer{
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .footer-container {
+    padding: 0 15px;
+  }
+}

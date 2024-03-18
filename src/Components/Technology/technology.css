@@ -1,0 +1,48 @@
+.technology {
+  margin-top: -70px;
+  padding: 140px 0px;
+  background-color: var(--tertiary-color);
+}
+
+.tech-text {
+  width: 500px;
+  margin-left: 90px;
+  padding: 10px;
+  color: white;
+}
+
+.tech-text p {
+  color: rgb(191, 188, 188);
+  margin-top: 10px;
+}
+
+.tech-imgs-container {
+  width: 200px;
+}
+
+.tech-imgs img {
+  width: 55px;
+  margin: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .tech-imgs {
+    width: 200px;
+  }
+
+  .tech-text {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .technology {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 70px;
+  }
+
+  .tech-text{
+    width: 90%;
+  }
+}

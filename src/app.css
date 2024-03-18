@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #273245;
+  --secondary-color: #929395;
+  --tertiary-color: #3871ff;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Montserrat", sans-serif;
+}
+
+.card{
+  border-radius: 0px;
+}

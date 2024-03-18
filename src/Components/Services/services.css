@@ -4,6 +4,7 @@
 }
 
 .services p {
+  width: 50%;
   color: var(--secondary-color);
 }
 
@@ -62,6 +63,11 @@
 }
 
 @media screen and (max-width: 576px) {
+  
+  .services{
+    width: 100%;
+  }
+  
   .services p{
     width: 100%;
   }

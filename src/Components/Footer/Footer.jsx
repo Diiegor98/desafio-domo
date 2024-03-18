@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="text-footer col-12 col-md-5">
           <h6>Diego Rodríguez</h6>
           <p>
-            Este sitio web fué maquetado como prueba técnica para DOMO, se
+            Este sitio web fue maquetado como prueba técnica para DOMO, se
             utilizó React y react-bootstrap. A continuación les comparto mis
             redes sociales.
           </p>

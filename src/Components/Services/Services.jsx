@@ -14,7 +14,7 @@ const Services = () => {
       className="services d-flex flex-column justify-content-center align-items-center"
     >
       <h2>Our Services</h2>
-      <p className="text-center">
+      <p className="services-subtext text-center">
         We feel very strong about our skills when it comes to planning,
         designing and coding applications. Here is what we love to do!
       </p>

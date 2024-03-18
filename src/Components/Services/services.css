@@ -3,7 +3,7 @@
   font-weight: bold;
 }
 
-.services p {
+.services-subtext {
   width: 50%;
   color: var(--secondary-color);
 }
@@ -67,8 +67,8 @@
   .services{
     width: 100%;
   }
-  
-  .services p{
+
+  .services-subtext{
     width: 100%;
   }
 
